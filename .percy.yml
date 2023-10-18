@@ -1,0 +1,20 @@
+version: 2
+snapshot:
+  widths:
+    - 1280
+  minHeight: 1024
+discovery:
+  allowedHostnames:
+    [
+      "sj.se",
+      "www.sj.se",
+      "localhost",
+      "proxyme.percy.io",
+      "render.percy.local",
+    ]
+  disallowedHostnames: []
+  networkIdleTimeout: 100
+upload:
+  files: "**/*.{png,jpg,jpeg}"
+  ignore: ""
+  stripExtensions: false
